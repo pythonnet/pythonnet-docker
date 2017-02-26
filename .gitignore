@@ -1,0 +1,29 @@
+# General binaries and Build results
+*.dll
+*.exe
+*.pdb
+
+### JetBrains ###
+.idea/
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+### CSharp ###
+# User-specific files
+*.suo
+*.user
+*.vcxproj.filters
+*.userprefs
+*.DotSettings.user
+
+# Build results
+[Bb]in/
+[Oo]bj/
