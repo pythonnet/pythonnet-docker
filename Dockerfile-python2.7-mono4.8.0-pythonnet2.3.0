@@ -11,4 +11,4 @@ RUN apt-get update \
   && apt-get install -y mono-complete=4.8.0.495-0xamarin1 \
   && rm -rf /var/lib/apt/lists/* /tmp/*
 
-RUN pip install pythonnet==2.2.2
+RUN pip install pythonnet==2.3.0
