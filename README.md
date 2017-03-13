@@ -8,6 +8,6 @@
 
 - Python 2.7 & 3.5
 - Mono 4.8.0
-- Pythonnet 2.2.2
+- Pythonnet 2.3
 
 *Note: The dockerfiles are named with their respective combinations.*
