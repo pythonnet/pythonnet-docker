@@ -2,6 +2,9 @@ sudo: required
 
 services:
   - docker
-  
-docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-./build_and_deploy.sh
+
+before_install:  
+  docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+
+script:
+  ./build_and_deploy.sh
