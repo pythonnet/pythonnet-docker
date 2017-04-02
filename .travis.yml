@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:  
+  docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+
+script:
+  ./build_and_deploy.sh
